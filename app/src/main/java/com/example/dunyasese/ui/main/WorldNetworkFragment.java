@@ -14,7 +14,6 @@ public class WorldNetworkFragment extends Fragment {
 
     private static final String ARG_SECTION_NUMBER = "section_number";
 
-
     public static WorldNetworkFragment newInstance(int index) {
         WorldNetworkFragment fragment = new WorldNetworkFragment();
         Bundle bundle = new Bundle();
@@ -32,7 +31,7 @@ public class WorldNetworkFragment extends Fragment {
     public View onCreateView(
             @NonNull LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
-        View root = inflater.inflate(R.layout.fragment_my_network, container, false);
+        View root = inflater.inflate(R.layout.fragment_world_network, container, false);
         return root;
     }
 }

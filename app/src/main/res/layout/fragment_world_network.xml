@@ -6,36 +6,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.main.MyNetworkFragment">
+    tools:context=".ui.main.WorldNetworkFragment">
 
-    <EditText
-        android:id="@+id/userNewPassword"
+    <TextView
+        android:id="@+id/userNetworkTitle"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:hint="@string/network_search"
-        android:textSize="20dp"
+        app:autoSizeTextType="uniform"
+        android:text="My World"
         android:layout_marginLeft="10dp"/>
 
     <LinearLayout
-        android:id="@+id/searchResultList"
+        android:id="@+id/networkList"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="9"
         android:orientation="vertical" />
-
-
-    <Button
-        android:id="@+id/newRequestsButton"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="@string/new_request_button"
-        android:background="@color/colorPrimary"
-        android:textColor="#ffff"
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="2dp"
-        android:layout_marginRight="2dp"
-        android:textSize="15dp"/>
 
 </LinearLayout>
