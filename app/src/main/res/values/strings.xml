@@ -27,8 +27,9 @@
     <string name="settings_back_button">back</string>
     <string name="delete_account_button">delete account</string>
     <string name="profile_settings_title">profile settings</string>
-    <string name="new_request_button">Requests (10)</string>
+    <string name="new_request_button">Requests</string>
     <string name="my_network_title">My Network</string>
+    <string name="world_network_title">My World</string>
     <string name="network_search">Search network ...</string>
     <string name="chat_search">Search chats ...</string>
     <string name="open_chat_button">open chat</string>

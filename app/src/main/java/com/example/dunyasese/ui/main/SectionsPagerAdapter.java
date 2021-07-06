@@ -16,7 +16,7 @@ import com.example.dunyasese.R;
  */
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
-    private static final String[] TAB_TITLES = new String[]{"Chat", "My Network", "Profile"};
+    private static final String[] TAB_TITLES = new String[]{"Chat", "My World", "Profile"};
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {
@@ -29,8 +29,8 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
         if (position == 0) {
             return ChatFragment.newInstance(0);
-        } else if (position == 1) {
-            return MyNetworkFragment.newInstance(1);
+        }else if (position == 1) {
+            return WorldNetworkFragment.newInstance(1);
         } else {
             return ProfileFragment.newInstance(2);
         }
